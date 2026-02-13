@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply text-slate-800 dark:text-stone-300 bg-stone-50 dark:bg-slate-950 font-sans font-normal leading-relaxed;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif font-bold text-slate-900 dark:text-white;
+  }
+
+  h1 {
+    @apply leading-tight tracking-wide;
+  }
+
+  h2 {
+    @apply leading-snug tracking-wide;
+  }
+
+  ::selection {
+    @apply bg-emerald-500 text-white;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none transition-all duration-300;
+  }
+
+  .card-border {
+    @apply border border-slate-200 dark:border-slate-800 transition-colors duration-300;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-28;
+  }
+}
