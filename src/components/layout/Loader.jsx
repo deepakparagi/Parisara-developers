@@ -36,7 +36,7 @@ const Loader = () => {
                         transition={{ duration: 0.8, delay: 1.2, ease: "circOut" }}
                         className="text-4xl md:text-6xl font-serif font-bold text-slate-900 dark:text-white tracking-wider"
                     >
-                        PARISARA
+                        PARISAR
                     </motion.h1>
                 </div>
 
