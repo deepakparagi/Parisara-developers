@@ -100,7 +100,7 @@ const Home = () => {
                             transition={{ duration: 0.8 }}
                         >
                             <span className="section-subtitle">Why Choose Us</span>
-                            <h2 className="section-title mb-6">The Parisara Promise</h2>
+                            <h2 className="section-title mb-6">The Parisar Promise</h2>
                             <p className="text-slate-600 dark:text-stone-300 text-lg mb-12 leading-relaxed">
                                 We don&apos;t just sell plots; we build communities. Here is why 150+ families have trusted us with their dream home.
                             </p>

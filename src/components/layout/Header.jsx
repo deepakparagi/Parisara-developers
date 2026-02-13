@@ -30,7 +30,7 @@ const Header = () => {
             <div className="container flex justify-between items-center">
                 {/* Logo */}
                 <Link to="/" className="flex items-center group gap-3">
-                    <img src={logo} alt="PARISARA" className="h-14 md:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+                    <img src={logo} alt="PARISAR" className="h-14 md:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
                 </Link>
 
                 {/* Desktop Navigation */}

@@ -75,7 +75,7 @@ const Footer = () => {
                 {/* Bottom Bar */}
                 <div className="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
                     <p className="text-xs text-slate-600 order-2 md:order-1">
-                        &copy; {currentYear} Parisara Developers. All rights reserved.
+                        &copy; {currentYear} Parisar Developers. All rights reserved.
                     </p>
 
                     <div className="flex items-center gap-6 order-1 md:order-2">
